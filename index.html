@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kör!</title>
+</head>
+
+<body id="test">
+    <div class="felkor2"></div>
+    <div class="hehehe">
+        <div class="felkor"></div>
+    </div>
+    <div class="container">
+        <div class="box">
+            
+            <div>
+                <h1>Kör</h1>
+            </div>
+            
+            <div>
+                <table>
+                    <tr>
+                        <td height="30" align="left">Kör sugara</td>
+                        <td><input type="number" name="r" id="r" onchange="kSz()"></td>
+                        <td rowspan="3"><div class="nagykor"></div></td>
+                    </tr>
+                    <tr>
+                        <td height="30" align="left">Kör kerülete</td>
+                        <td><input type="number" name="Kk" id="Kk" disabled></td>
+                    </tr>
+                    <tr>
+                        <td height="30" align="left">Kör területe</td>
+                        <td><input type="number" name="Kt" id="Kt" disabled></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h1>Téglalap</h1>
+            </div>
+            <div class="koocke"></div>
+            <div>
+                <table>
+                    <tr>
+                        <td height="30" align="left">Oldal hossza</td>
+                        <td><input type="number" name="h" id="h" onchange="tSz()"></td>
+                    </tr>
+                    <tr>
+                        <td height="30" align="left">Oldal szélessége</td>
+                        <td><input type="number" name="sz" id="sz" onchange="tSz()"></td>
+                    </tr>
+                    <tr>
+                        <td height="30" align="left">Területe</td>
+                        <td><input type="number" name="TT" id="TT" disabled></td>
+                    </tr>
+                    <tr>
+                        <td height="30" align="left">Kerülete</td>
+                        <td><input type="number" name="TK" id="TK" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="gomb" value="Katt rám:)" onclick="riccardoinc()" ></td>
+                        <td><input type="button" id="gomb2" value="Vissza is megy?" "></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

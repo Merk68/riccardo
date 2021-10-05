@@ -1,0 +1,72 @@
+html, body {
+    background: url(letöltés.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box {
+    width: 600px;
+    background-color: rgba(179, 19, 19, 0.623);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 2px 4px 2px 4px;
+}
+.felkor{
+    transform: rotate(-90deg);
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 150px 150px 0 0;
+    margin-right: -80px;
+    float: right;
+}
+.felkor2{
+    transform: rotate(90deg);
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 150px 150px 0 0;
+    margin-left: -80px;
+    float:left;
+}
+.hehehe{
+    display: flex;
+    justify-content: flex-end;
+}
+.koocke {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+        animation-iteration-count: infinite;
+        float: right;
+}
+@keyframes example {
+    0%   {background-color:blanchedalmond; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+.nagykor {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(17, 16, 16);
+    border-radius: 125px;
+    overflow: visible;
+    display: flex;
+    justify-content:right;
+    align-self: center;
+    float: right;
+    margin-left: 110px;
+}
